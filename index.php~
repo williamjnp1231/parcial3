@@ -58,13 +58,6 @@ nav{
 67% { transition: 1s; background: url(imagenes/regalo_2.jpg) no-repeat center;}
 100% {left: 0px;}
 }
-@-moz-keyframes animado{
-
-0% {left:0px;}
-33% { transition: 1s; background: url(imagenes/regalo_1.jpg) no-repeat center;}
-67% { transition: 1s; background: url(imagenes/regalo_2.jpg) no-repeat center;}
-100% {left: 0px;}
-}
 
 article1{
 	width: 900px;
@@ -106,8 +99,6 @@ nav a{
 nav ul li:hover{
 -webkit-transform: translate(0px, 20px);
 -webkit-transition: 0.5s;
--moz-transform: translate(0px, 20px);
--moz-transition: 0.5s;
 }
 nav a:hover{
 	
