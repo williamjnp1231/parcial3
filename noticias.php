@@ -135,16 +135,11 @@ p {
 		float:right;
 	}
 header a{
-	text-decoration:underline;
-	color:blue;
+	text-decoration:none;
+	color:#C0C0C0;
 	font-size:16px;
 	}
-	
-header a:hover {
-	text-decoration:none;
-	color:green;
-	font-size:17px;
-	}
+
 #megusta{
 	float:right;
 	bottom:10px;
@@ -167,7 +162,7 @@ header a:hover {
 </style>
 
 <div id="login">
-<a href="login.php">Login</a> | <a href="registrarse.php">Registro</a>
+<a href="login.php">Usuario: Registrado</a>
 
 </header>
 </head>

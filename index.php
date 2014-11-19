@@ -51,14 +51,7 @@ nav{
 67% { transition: 1s; background: url(imagenes/regalo_2.jpg) no-repeat center; }
 100% {left: 0px;}
 }
-@-webkit-keyframes animado{
-
-0% {left:0px;}
-33% { transition: 1s; background: url(imagenes/regalo_1.jpg) no-repeat center;}
-67% { transition: 1s; background: url(imagenes/regalo_2.jpg) no-repeat center;}
-100% {left: 0px;}
-}
-@-moz-keyframes animado{
+@-webkit-keyframes animado, @-moz-keyframes animado{
 
 0% {left:0px;}
 33% { transition: 1s; background: url(imagenes/regalo_1.jpg) no-repeat center;}
@@ -157,7 +150,7 @@ header a:hover {
 </style>
 
 <div id="login">
-<a href="login.php">Login</a> | <a href="registrarse.php">Registro</a>
+<a href="login.php">Login</a> | <a href="formulario.php">Registro</a>
 
 </header>
 </head>
